@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo4j Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Neo4j 活动与人员展示 Demo</h1>
+        
+        <div class="search-box">
+            <label for="personName">输入人物姓名：</label>
+            <input type="text" id="personName" placeholder="例如：张三">
+            <button onclick="fetchPersonData()">查询</button>
+        </div>
+        
+        <div id="results" class="results">
+            <!-- 查询结果会在这里展示 -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

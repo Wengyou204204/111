@@ -1,0 +1,14 @@
+[
+    {
+        "Person": "张三",
+        "Activities": ["活动A", "活动B", "活动C"]
+    },
+    {
+        "Person": "李四",
+        "Activities": ["活动A", "活动D"]
+    },
+    {
+        "Person": "王五",
+        "Activities": ["活动B", "活动C", "活动E"]
+    }
+]
